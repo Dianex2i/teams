@@ -3,7 +3,7 @@
  * Command lines from 'teams-db' folder:
  * psql -h localhost -p 5432 -U postgres -d teams
  * \i schema.ddl.sql
- * \q
+ * \qcd
  */
 CREATE TABLE towns (  
 	id SERIAL PRIMARY KEY,  
