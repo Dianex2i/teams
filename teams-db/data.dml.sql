@@ -25,8 +25,6 @@ INSERT INTO members (first_name, last_name, home_address_id) VALUES
 INSERT INTO teams_members VALUES 
 	((SELECT t.id FROM teams t WHERE t.name = 'Formateurs'), (SELECT t.id FROM members t WHERE t.last_name = 'BOJKO')),
 	((SELECT t.id FROM teams t WHERE t.name = 'Formateurs'), (SELECT t.id FROM members t WHERE t.last_name = 'MARSHALL')),
-
-
 	((SELECT t.id FROM teams t WHERE t.name = 'Pedagogique'), (SELECT t.id FROM members t WHERE t.last_name = 'LUONG')),
 	((SELECT t.id FROM teams t WHERE t.name = 'Pedagogique'), (SELECT t.id FROM members t WHERE t.last_name = 'DAUGUET'));
 
